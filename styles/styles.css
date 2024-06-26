@@ -17,7 +17,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 2px;
+    padding: 0;
 }
 
 main {
@@ -29,10 +29,9 @@ aside {
     border: 5px solid #b9f909;
     background-color: steelblue;
     padding: 1rem;
-    color: #333;
     text-align: center;
     color: #fdfdfc; 
-    font-style: courier, ariel;
+    
 
 }
 aside img {
