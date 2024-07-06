@@ -34,11 +34,10 @@ h1 {
 main img {
     width: 185px; 
     height: auto; 
-    border: 1px solid steelblue; 
+    border: steelblue solid 1px; 
     padding: 2px; 
     box-shadow: 0 0 30px rgb(198, 14, 14);
     float: right;
-    margin: 1 0 1rem 1rem;
 }
 
 p {
@@ -75,7 +74,7 @@ footer {
 /* Class Selectors */
 .box {
     margin: 2%;
-    border: 1px solid rgba(225, 39, 39, 0.371);
+    border: rgba(225, 39, 39, 0.371) solid 1px;
     padding: 1%;
     background-color: #c7ace0;
     color: #000000;
