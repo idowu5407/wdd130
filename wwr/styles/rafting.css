@@ -17,11 +17,11 @@
 }
 
 body {
-    font-family: var(--paragraph-font);
     max-width: 100%;
     padding: 20px;
     margin: 0;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -124,7 +124,6 @@ article img {
     display: flex;
     flex: wrap;
     justify-content: space-between;
-    border: thin #c0c0c0 solid;
 
 }
 .adventures h2 {
@@ -149,15 +148,12 @@ article img {
 .adventures img {
     width: 100%;
     height: auto;
-    
-
 }
 
 .adventures figcaption {
     font-size: 20px;
     color: var(--secondary-color);
     background-color: var(--nav-hover-link-color);
-
 }
 
 footer {
@@ -175,8 +171,6 @@ footer p {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-
-    
 }
 
 .sociallinks {
