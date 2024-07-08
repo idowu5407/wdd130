@@ -68,7 +68,7 @@ h1 {
     font-size: 70px;
     color: var(--accent1-color);
     text-align: center;
-    width: 98%;
+    width: 100%;
     background-color: rgba(90, 90, 188, 0.5);
 }
 
@@ -79,11 +79,11 @@ h2 {
 
 article {
     position: absolute;
-    top: 890px;
+    top: 1100px;
     left: 165px;
     width: 80%;
     font-size: 16px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(99, 99, 171, 0.5);
     color: var(--nav-link-color);
 }
@@ -91,7 +91,7 @@ article {
 article img {
     width: 200px;
     float: right;
-    margin: 20px;
+    margin: 2px;
     border: 1px solid var(--accent1-color);
 }
 
