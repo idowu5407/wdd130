@@ -77,6 +77,104 @@ h2 {
     font-size: 40px;
 }
 
+.contact-info {
+    margin: 50px 0;
+}
+
+.contact-info h2 {
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.contact-info address {
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.google-map iframe {
+    width: 80%;
+    height: 400px;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.employee-profiles figure {
+    text-align: center;
+    margin: 20px;
+}
+
+.employee-profiles img {
+    width: 200px;
+    height: auto;
+    border: 1px solid var(--accent1-color);
+}
+
+.employee-profiles figcaption {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.contact-form {
+    margin: 50px 0;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-size: 20px;
+    margin: 10px 0;
+    color: var(--secondary-color);
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--accent1-color);
+}
+
+.contact-form button {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-link-color);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+legend {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
 article {
     position: absolute;
     top: 1100px;
