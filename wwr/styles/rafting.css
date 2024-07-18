@@ -21,7 +21,6 @@ body {
     padding: 20px;
     margin: 0;
     justify-content: center;
-    font-family: var(--paragraph-font);
 }
 
 header {
@@ -204,7 +203,6 @@ footer p {
 .google-map {
     display: flex;
     justify-content: center;
-    top: ;
     margin: 20px 0;
 }
 
@@ -261,18 +259,18 @@ footer p {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid var(--accent1-color);
+    border: var(--accent1-color) solid 1px;
 }
 
 .contact-form button {
-    background-color: var(--nav-hover-background-color);
+    background-color: #90e0ef;
     color: var(--nav-link-color);
     cursor: pointer;
     font-size: 20px;
 }
 
 .contact-form button:hover {
-    background-color: var(--accent1-color);
+    background-color: #c5f254
 }
 
 fieldset {
