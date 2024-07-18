@@ -3,14 +3,14 @@
 
 :root {
     --primary-color: #072c40;
-    --secondary-color: #010404;
-    --accent1-color: #c5f254;
-    --accent2-color: #170557;
+    --secondary-color: #000000;
+    --accent1-color: #cdf36d;
+    --accent2-color: #0b022a;
 
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
 
-    --nav-background-color: #0077b6;
+    --nav-background-color: #0f8dd1;
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #0077b6;
     --nav-hover-background-color: #90e0ef;
@@ -21,6 +21,8 @@ body {
     padding: 20px;
     margin: 0;
     justify-content: center;
+    background-color: #3cf66e;
+
 }
 
 header {
@@ -96,6 +98,7 @@ article img {
 
 .history {
     margin: 50px 0;
+    
 }
 
 .history-content, h2 {
@@ -104,6 +107,7 @@ article img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .history-content img {
@@ -128,7 +132,7 @@ article img {
     width: 100%;
     text-align: center;
     margin: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 
 }   
 .adventures {
@@ -217,16 +221,19 @@ footer p {
     
 }
 
-.employee-profiles {
+.employee-profiles h2 {
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    color: #000000;
+    
 }
 
 .employee-profiles figure {
     text-align: center;
     margin: 20px;
+    
 }
 
 .employee-profiles img {
@@ -238,6 +245,7 @@ footer p {
 .employee-profiles figcaption {
     font-size: 20px;
     color: var(--secondary-color);
+    
 }
 
 .contact-form {
