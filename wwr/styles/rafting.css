@@ -404,7 +404,6 @@ body {
     margin: 0;
     justify-content: center;
     background-color: #3cf66e;
-    font-family: var(--paragraph-font);
 }
 
 header {
@@ -412,7 +411,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 20px;
-    background-color: var(--nav-background-color);
+    background-color: #0f8dd1;
 }
 
 .logo {
@@ -435,7 +434,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--nav-hover-background-color);
+    background-color: #90e0ef;
     color: var(--nav-hover-link-color);
 }
 
@@ -494,7 +493,7 @@ article img {
     width: 50%;
     margin: 0 20px 20px 0;
     float: left;
-    border: 1px solid var(--accent1-color);
+    border: var(--accent1-color) solid 1px;
 }
 
 .history-content p {
@@ -513,7 +512,7 @@ article img {
     width: 100%;
     text-align: center;
     margin: 20px;
-    background-color: var(--accent2-color);
+    background-color: #0b022a;
 }
 
 .adventures figure {
@@ -530,7 +529,7 @@ article img {
 .adventures figcaption {
     font-size: 20px;
     color: var(--secondary-color);
-    background-color: var(--nav-hover-link-color);
+    background-color: #0077b6;
 }
 
 footer {
@@ -538,7 +537,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--nav-background-color);
+    background-color:  #0f8dd1;
     color: var(--nav-link-color);
     position: relative;
 }
@@ -589,7 +588,7 @@ footer p {
 .google-map iframe {
     width: 80%;
     height: 400px;
-    border: 1px solid var(--accent1-color);
+    border: var(--accent1-color) solid 1px;
 }
 
 .employee-profiles h2 {
@@ -608,7 +607,7 @@ footer p {
 .employee-profiles img {
     width: 200px;
     height: auto;
-    border: 1px solid var(--accent1-color);
+    border: var(--accent1-color) solid 1px;
 }
 
 .employee-profiles figcaption {
@@ -668,14 +667,14 @@ legend {
 .cta {
     text-align: center;
     padding: 20px;
-    background-color: var(--nav-background-color);
+    background-color: #0f8dd1;
     color: var(--nav-link-color);
 }
 
 .cta .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--accent1-color);
+    background-color: #cdf36d;
     color: var(--nav-link-color);
     text-decoration: none;
     font-size: 20px;
@@ -683,7 +682,7 @@ legend {
 }
 
 .cta .btn:hover {
-    background-color: var(--nav-hover-background-color);
+    background-color: #90e0ef;
     color: var(--nav-hover-link-color);
 }
 
@@ -716,11 +715,11 @@ legend {
 
 .trip-table th, .trip-table td {
     padding: 10px;
-    border: 1px solid var(--accent1-color);
+    border: var(--accent1-color) solid 1px;
 }
 
 .trip-table th {
-    background-color: var(--nav-background-color);
+    background-color: #0f8dd1;;
     color: var(--nav-link-color);
 }
 
@@ -739,7 +738,7 @@ legend {
     text-align: center;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .grid-item img {
