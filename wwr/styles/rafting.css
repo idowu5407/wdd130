@@ -296,3 +296,88 @@ legend {
     font-size: 30px;
     color: var(--secondary-color);
 }
+
+.cta {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent1-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cta .btn:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.trip-descriptions {
+    margin: 20px 0;
+}
+
+.trip {
+    display: flex;
+    margin: 20px 0;
+}
+
+.trip img {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.trip-details {
+    flex: 1;
+}
+
+.trip-table {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--nav-hover-background-color);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.trip-table th {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.trip-table td {
+    background-color: #f8f8f8;
+}
+
+.trip-table tbody tr:nth-child(odd) {
+    background-color: var(--nav-hover-background-color);
+}
+
+.wireframe-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wireframe-link a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+.wireframe-link a:hover {
+    text-decoration: underline;
+}
