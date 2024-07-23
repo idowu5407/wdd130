@@ -3,8 +3,8 @@ header, footer, .grid {
     margin: 0 auto;
 }
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
     box-sizing: border-box;
 }
 body {
@@ -32,13 +32,14 @@ h1 {
 }
 
 main img {
-    width: 185px; 
+    width: 180px; 
     height: auto; 
     border: steelblue solid 1px; 
     padding: 2px; 
     box-shadow: 0 0 30px rgb(198, 14, 14);
-    float: right;
+    float: right;   
 }
+
 
 p {
     padding: 0;
@@ -52,11 +53,13 @@ aside {
     width: 300px;
     text-align: center;
     position: relative;
+    
 }
 
 aside img {
     width: 250px;
     height: auto;
+   
 }
 
 aside h2 {
@@ -78,6 +81,7 @@ footer {
     padding: 1%;
     background-color: #c7ace0;
     color: #000000;
+    
   } 
 
 .index {
@@ -98,4 +102,5 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    
 }
