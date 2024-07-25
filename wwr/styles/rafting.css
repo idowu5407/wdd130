@@ -85,9 +85,7 @@ h2 {
     background-color: rgba(91, 91, 176, 0.5);
     align-items: center;
     width: 60%;
-    left: 20%;
-
-    
+    left: 20%;   
 }
 
 .container img {
@@ -97,9 +95,8 @@ h2 {
 }
 .container p {
     font-size: 20px;
-    flex: 1; 
-    margin: 50px;
     color:#ffffff;
+    padding-left: 5%;
 }   
 
 
@@ -267,12 +264,15 @@ footer p {
     margin: 10px 0;
     color: var(--secondary-color);
 }
-
+.form label {
+    font-size: 100%;
+}
 .contact-form input, .contact-form textarea, .contact-form button {
     width: 70%;
     padding: 10px;
     margin: 10px 0;
     border: var(--accent1-color) solid 2px;
+    
 }
 
 .contact-form button {
