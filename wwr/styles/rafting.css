@@ -313,6 +313,9 @@ legend {
     font-size: 50px;
     margin-top: 10px;
 }
+.cta p {
+    font-size: 60px;
+}
 
 .cta .btn:hover {
     background-color: #90e0ef;
@@ -326,6 +329,8 @@ legend {
 .trip {
     display: flex;
     margin: 20px 0;
+    font-size: 70px;
+
 }
 
 .trip img {
@@ -339,12 +344,18 @@ legend {
 
 .trip-table {
     margin: 20px 0;
+   
+    
 }
 
 .trip-table table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
+    font-size: 50px;
+    height: 500px;
+    
+    
 }
 
 .trip-table th, .trip-table td {
